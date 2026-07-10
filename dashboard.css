@@ -1,0 +1,379 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+/* ================= NAVBAR ================= */
+
+/* ===========================
+   Navbar
+=========================== */
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 50px;
+
+    background:#111827;
+
+    box-shadow:0 4px 15px rgba(0,0,0,0.3);
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+}
+
+.logo{
+
+    color:#fff;
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+.nav-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+#welcome{
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:500;
+
+}
+
+#themeBtn{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 15px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+#themeBtn:hover{
+
+    background:#1d4ed8;
+
+}
+
+#logoutBtn{
+
+    background:#ef4444;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+#logoutBtn:hover{
+
+    background:#dc2626;
+
+}
+
+/* ================= SEARCH ================= */
+
+.search-section{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    padding:30px;
+
+}
+.search-section input,
+.search-section select{
+
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    outline:none;
+    font-size:15px;
+
+}
+
+.search-section input{
+
+    width:300px;
+
+}
+
+.search-section button{
+
+    padding:14px 25px;
+    border:none;
+    border-radius:10px;
+    background:#ff4b2b;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.search-section button:hover{
+
+    background:#ff416c;
+    transform:scale(1.05);
+
+}
+
+/* ================= MOVIES ================= */
+
+.movies{
+
+    width:90%;
+    margin:40px auto;
+
+}
+
+.movies h2{
+
+    margin-bottom:25px;
+
+}
+
+.movie-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+    padding:40px;
+
+}
+
+/* ================= MOVIE CARD ================= */
+
+.movie-card{
+
+    background:#1f2937;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    transition:0.4s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+
+}
+
+.movie-card:hover{
+
+    transform:translateY(-10px) scale(1.03);
+
+    box-shadow:0 12px 25px rgba(255,75,43,0.6);
+
+}
+
+.movie-card img{
+
+    width:100%;
+
+    height:350px;
+
+    object-fit:cover;
+
+}
+
+.movie-info{
+
+    padding:18px;
+
+}
+
+.movie-info h3{
+
+    color:white;
+
+    font-size:24px;
+
+    margin-bottom:10px;
+
+}
+
+.movie-info p{
+
+    color:#d1d5db;
+
+    margin:8px 0;
+
+    font-size:15px;
+
+}
+
+.movie-info button{
+
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#ff4b2b;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.movie-info button:hover{
+
+    background:#ff416c;
+
+}
+.nav-right{
+
+    display:flex;
+    align-items:center;
+    gap:20px;
+
+}
+
+#logoutBtn{
+
+    background:#ff4b2b;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+
+}
+
+#logoutBtn:hover{
+
+    background:#ff1744;
+
+}
+.buttons{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+}
+
+.buttons button{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#ff4b2b;
+    color:white;
+    cursor:pointer;
+    font-size:15px;
+    transition:0.3s;
+}
+
+.buttons button:hover{
+    background:#ff1744;
+}
+.footer{
+
+    background:#111827;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-top:40px;
+
+    font-size:15px;
+
+}
+/* Light Mode */
+
+.light-mode{
+
+    background:#f3f4f6;
+
+    color:#111827;
+
+}
+
+.light-mode .navbar{
+
+    background:white;
+
+}
+
+.light-mode .movie-card{
+
+    background:white;
+
+    color:black;
+
+}
+
+.light-mode #welcome{
+
+    color:black;
+
+}
+button{
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+input,select{
+    transition:0.3s;
+}
+
+input:focus,select:focus{
+    transform:scale(1.03);
+}

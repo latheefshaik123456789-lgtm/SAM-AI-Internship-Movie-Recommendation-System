@@ -1,0 +1,74 @@
+[
+  {
+  "title": "RRR",
+  "genre": "Action",
+  "language": "Telugu",
+  "rating": 8.8,
+  "description": "Two fearless revolutionaries fight against the British Empire.",
+  "poster": "assets/posters/rrr.jpg",
+  "trailer": "https://www.youtube.com/results?search_query=RRR+Official+Trailer"
+},
+  {
+    "title": "Pushpa",
+    "genre": "Action",
+    "language": "Telugu",
+    "rating": 7.6,
+    "description": "A fearless man rises to become the king of the red sandalwood smuggling world.",
+    "poster":"assets/posters/pushpa.jpg",
+    "trailer": "https://www.youtube.com/results?search_query=Pushpa+Official+Trailer"
+  },
+  {
+    "title": "KGF Chapter 2",
+    "genre": "Action",
+    "language": "Kannada",
+    "rating": 8.3,
+    "description": "Rocky battles powerful enemies to rule the KGF empire.",
+    "poster": "assets/posters/kgf2.jpg",
+    "trailer": "https://www.youtube.com/results?search_query=KGF+Chapter+2+Official+Trailer"
+  },
+  {
+    "title": "Salaar",
+    "genre": "Action",
+    "language": "Telugu",
+    "rating": 6.8,
+    "description": "A powerful action drama about friendship, loyalty, and revenge.",
+    "poster": "assets/posters/salaar.jpg",
+    "trailer": "https://www.youtube.com/results?search_query=Salaar+Official+Trailer"
+  },
+  {
+    "title": "Leo",
+    "genre": "Action",
+    "language": "Tamil",
+    "rating": 7.2,
+    "description": "A café owner faces dangerous enemies from his mysterious past.",
+    "poster": "assets/posters/leo.jpg",
+    "trailer": "https://www.youtube.com/results?search_query=Leo+Official+Trailer"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "genre": "Action",
+    "language": "English",
+    "rating": 8.4,
+    "description": "The Avengers unite for one final battle against Thanos.",
+    "poster": "assets/posters/endgame.jpg",
+    "trailer": "https://www.youtube.com/results?search_query=Avengers+Endgame+Official+Trailer"
+  },
+  {
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "language": "English",
+    "rating": 8.7,
+    "description": "Astronauts travel through space to save humanity.",
+    "poster": "assets/posters/interstellar.jpg",
+    "trailer": "https://www.youtube.com/results?search_query=Interstellar+Official+Trailer"
+  },
+  {
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "language": "English",
+    "rating": 8.8,
+    "description": "A skilled thief enters dreams to steal and plant ideas.",
+    "poster": "assets/posters/inception.jpg",
+    "trailer": "https://www.youtube.com/results?search_query=Inception+Official+Trailer"
+  }
+]
