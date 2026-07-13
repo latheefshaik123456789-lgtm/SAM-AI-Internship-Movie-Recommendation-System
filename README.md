@@ -1,5 +1,8 @@
 # 🎬 AI Movie Recommendation System
 
+## live demo
+ https://latheefshaik123456789-lgtm.github.io/SAM-AI-Task-3-Movie-Recommendation-System/
+
 ## Features
 - Login Authentication
 - Live Movie Search
